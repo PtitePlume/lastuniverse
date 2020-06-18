@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+div.fiche-prez {
+display: flex;
+flex-direction: column;
+width: 1571px;
+max-width: 1571px;
+}
+ /* 640 240 */
+
+div.entete {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+flex-wrap: wrap;
+width: 1571px;
+}
+
+div.details {
+display: flex;
+flex-direction: column;
+width: 900px; /* marge de 31px */
+}
+
+.titre_fiche {
+font: bold 16px 'Roboto', sans-serif;
+}
+
+.texte_fiche {
+font: normal 11px 'Roboto', sans-serif;
+}
