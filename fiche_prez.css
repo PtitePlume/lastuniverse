@@ -1,13 +1,16 @@
+
+/* DIRECTIVE A PLACER EN HAUT DE LA CSS */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
+/* BLOCK GENERIQUE */
 div.fiche-prez {
 display: flex;
 flex-direction: column;
 width: 1571px;
 max-width: 1571px;
 }
- /* 640 240 */
 
+/* IMAGE + LISTE ATTRIBUTS SUR 2 COLONNES */
 div.entete {
 display: flex;
 flex-direction: row;
@@ -19,7 +22,12 @@ width: 1571px;
 div.details {
 display: flex;
 flex-direction: column;
-width: 900px; /* marge de 31px */
+width: 900px; /* laisse une marge de 31px */
+}
+
+/* LES PARAGRAPHES TEXTES + TITRES */
+.para_prez {
+
 }
 
 .titre_fiche {
